@@ -1,0 +1,390 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+html{
+    font-size: 62.5%;
+}
+
+.header {
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.733)), url('../eduford_img/banner.png');
+    background-position: center;
+    background-size: cover;
+
+
+}
+.course i{
+    position: fixed;
+    top: 30rem;
+    right: 2px;
+    color:#fff;
+    font-size:5rem;
+    padding: 1rem;
+    background-color:rgb(26, 192, 26);
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+.logo {
+    padding: 3%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 6%;
+    align-items: center;
+
+
+}
+
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    font-size: 2rem;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: aliceblue;
+    padding: o.5rem 0.5rem;
+    border-radius: 0.5rem;
+
+}
+
+.nav ul li a:hover {
+    background-color: aqua;
+    box-shadow: 1.2rem 1.0rem 1.0rem black;
+    color: black;
+    transition: 1s;
+
+}
+
+.content h1 {
+    text-align: center;
+    color: red;
+    font-size: 6.0rem;
+}
+
+.content {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    margin-top: 10rem;
+
+}
+
+.content p {
+    color: white;
+    text-align: center;
+    margin: 3.0rem;
+    font-size: 2.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 3.0rem;
+
+}
+
+.btn {
+    display: inline-block;
+    padding: 1.3rem 5rem;
+    color: white;
+    cursor: pointer;
+    font-family: serif;
+    background: transparent;
+    border: 1px solid #fff;
+    position: relative;
+    font-size: 3.0rem;
+    border-radius: 1.0rem;
+    text-decoration: none;
+    margin-bottom: 2rem;
+}
+
+.btn:hover {
+    background-color: aqua;
+    border: 1px solid aqua;
+    box-shadow: .5rem .5rem .5rem black;
+    color: black;
+    transition: 1s;
+    border-radius: 1em;
+}
+
+.content p::first-letter {
+    font-size: 4rem;
+    color: red;
+}
+
+.course {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10.0rem;
+
+}
+
+h1 {
+    font-size: 3.6rem;
+    font-weight: 600;
+}
+
+p {
+    color: #777;
+    font-size: 2.0rem;
+    font-weight: 300;
+    line-height: 2.2rem;
+    padding: 1rem;
+}
+
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-col {
+    flex-basis: 30%;
+    background: #f5b2f5;
+    padding: 1rem;
+    margin: 2rem;
+
+}
+
+.course-col:hover {
+    box-shadow: 0px 0px 2rem #000;
+    position: relative;
+    bottom: .5rem;
+    transition: 1s;
+    left: 3px;
+}
+
+.campus {
+    margin-top: 10rem;
+}
+
+.text {
+    text-align: center;
+    margin-bottom: 10rem;
+}
+
+.campus .campus_image {
+    display: flex;
+    height: 38rem;
+    padding: 0px 4.0rem;
+}
+
+.myimage {
+    display: flex;
+    width: 70%;
+    margin-left: 15.0rem;
+    padding: 3.0rem;
+    position: relative;
+    transition: 0.5s;
+}
+
+.myimage .campus_image:hover {
+    position: relative;
+    bottom: 1.5rem;
+    box-shadow: 0px 10px 20px black;
+    transition: 0.5s;
+}
+
+
+
+.col img {
+    height: 30rem;
+    text-align: center;
+    padding: 0px 3.0rem;
+    margin: 0px 2rem;
+    width: 40rem;
+    transition: o.5s;
+}
+
+.facility {
+    text-align: center;
+    padding: 0px 3rem;
+    margin-top: 1rem;
+
+}
+
+.facilities {
+    margin-top: 10rem;
+}
+
+.col img:hover {
+    box-shadow: 0px 0px 10px grey;
+    transition: o.5s;
+}
+
+.testimonial {
+    margin-top: 10rem;
+
+}
+
+.container .col-5{
+    background:#f5b2f5;;
+   
+    border-radius: 2.0rem;
+width: 45%;
+margin: 0px 3rem ;  
+
+    
+
+
+}
+.col-9 p{
+    color: #000;
+    z-index: 2; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 1.0rem;
+}
+ .col-5 img {height: 5.0rem;   
+     border-radius: 100%;
+  margin-top: 1.0rem;
+  margin-left: 1.2rem;
+    
+}
+.col-5:hover{
+    box-shadow: 0px 0px 25px #000;
+    transition: 1s;
+}
+.col-5 h3{
+    font-size: 2.5rem;
+    margin-left:2.6rem;
+    margin-top: 0.5rem;
+    margin-bottom: .5rem;
+}
+.enroll{
+    margin-top: 20.0rem;
+}
+.connect{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("eduford_img/banner2.jpg");
+    width: 85%;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    height: 50.0rem;
+    margin: auto;
+
+    padding:20.0rem 6.0rem 0px 6rem ;
+    
+
+}
+.connect-text{
+    font-size: 4.0rem;
+    color: #fff;
+    text-align: center;
+    line-height: 8.0rem;
+
+    
+}
+.about-us{
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    margin-top: 15rem;
+}
+
+.about-icon{
+    margin-top: 2rem;
+    padding: 0px 2.0rem ;
+} 
+.about-icon i{
+    padding: 0px 1.0rem ;
+    color: red;
+    cursor: pointer;
+    font-size: 2.0rem;
+}
+@media (max-width:998px){
+    html{
+        font-size: 55%;
+    }
+    .connect-text{
+        font-size: 3.0rem;
+        text-align: center;
+        line-height: 7.0rem;
+    
+        
+    }
+
+
+}
+
+
+
+@media(max-width:600px)
+ {
+html{
+    font-size: 45%;
+    margin: auto;
+}
+.header {
+    background-size: cover;
+    margin: auto;
+    width:100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.733)), url('../eduford_img/banner.png');
+}
+.connect-text{
+    font-size: 2.0rem;
+    text-align: center;
+    line-height: 6.0rem;
+
+    
+}
+
+.myimage {
+
+    margin-left: 7.0rem;
+    
+}
+.campus .campus_image {
+    display: flex;
+    height: 18rem;
+    padding: 0px 2.0rem;
+}
+
+
+
+
+.col img {
+    height: 18rem;
+    text-align: center;
+    padding: 0px 0.5rem;
+    margin: 0px 1rem;
+    width: 20rem;
+    transition: o.5s;
+
+}
+   
+
+    .content {
+        margin-top: 260px;
+    }
+
+    .content h1 {
+        text-align: center;
+        font-size: 40px;
+        margin-top: 500px;
+    }
+
+    .content p {
+        text-align: center;
+        margin: 30px;
+        font-size: 20px;
+
+    }
+
+    .header {
+        width: 100%;
+        height: auto;
+    }
+
+    .btn {
+        margin-bottom: 50px;
+    }
+}
